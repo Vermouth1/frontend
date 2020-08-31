@@ -19,4 +19,4 @@
 
 ## 待补充
 
-class、TCP 链接、数据类型判断、观察者模式&发布订阅模式、Vue(单向数据流和双向绑定)、call apply、npm
+class、TCP 链接、数据类型判断、观察者模式&发布订阅模式、Vue(单向数据流和双向绑定)、call apply、npm--
