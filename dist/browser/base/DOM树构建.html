@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>DOM树构建 | whisperwind</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/frontend/assets/css/0.styles.5583c977.css" as="style"><link rel="preload" href="/frontend/assets/js/app.9af0d489.js" as="script"><link rel="preload" href="/frontend/assets/js/2.92dfc871.js" as="script"><link rel="preload" href="/frontend/assets/js/12.99c97a8d.js" as="script"><link rel="prefetch" href="/frontend/assets/js/10.2417283f.js"><link rel="prefetch" href="/frontend/assets/js/11.ce9d5501.js"><link rel="prefetch" href="/frontend/assets/js/13.a192cdbb.js"><link rel="prefetch" href="/frontend/assets/js/14.f49f8c43.js"><link rel="prefetch" href="/frontend/assets/js/15.32af6305.js"><link rel="prefetch" href="/frontend/assets/js/16.b1436089.js"><link rel="prefetch" href="/frontend/assets/js/17.5fc3236e.js"><link rel="prefetch" href="/frontend/assets/js/18.ff5d8014.js"><link rel="prefetch" href="/frontend/assets/js/19.5d39f230.js"><link rel="prefetch" href="/frontend/assets/js/20.aac1b8d3.js"><link rel="prefetch" href="/frontend/assets/js/21.2734a3ce.js"><link rel="prefetch" href="/frontend/assets/js/22.d42af8d0.js"><link rel="prefetch" href="/frontend/assets/js/23.a83d6c9e.js"><link rel="prefetch" href="/frontend/assets/js/24.910a39a5.js"><link rel="prefetch" href="/frontend/assets/js/25.e6bd1806.js"><link rel="prefetch" href="/frontend/assets/js/26.a10914c2.js"><link rel="prefetch" href="/frontend/assets/js/27.2f0a1f63.js"><link rel="prefetch" href="/frontend/assets/js/28.8c33be4a.js"><link rel="prefetch" href="/frontend/assets/js/29.3cf34540.js"><link rel="prefetch" href="/frontend/assets/js/3.4265ed86.js"><link rel="prefetch" href="/frontend/assets/js/30.1d109935.js"><link rel="prefetch" href="/frontend/assets/js/31.766af987.js"><link rel="prefetch" href="/frontend/assets/js/32.2dc4b990.js"><link rel="prefetch" href="/frontend/assets/js/33.45dfc6cb.js"><link rel="prefetch" href="/frontend/assets/js/34.f03b4410.js"><link rel="prefetch" href="/frontend/assets/js/35.58bfb24d.js"><link rel="prefetch" href="/frontend/assets/js/36.8fc8fe18.js"><link rel="prefetch" href="/frontend/assets/js/37.5b21228f.js"><link rel="prefetch" href="/frontend/assets/js/38.1ba642b3.js"><link rel="prefetch" href="/frontend/assets/js/39.d5cc41f1.js"><link rel="prefetch" href="/frontend/assets/js/4.92bd4596.js"><link rel="prefetch" href="/frontend/assets/js/40.d5c211ae.js"><link rel="prefetch" href="/frontend/assets/js/41.a0c3a0a0.js"><link rel="prefetch" href="/frontend/assets/js/42.a2071f24.js"><link rel="prefetch" href="/frontend/assets/js/43.46eaa987.js"><link rel="prefetch" href="/frontend/assets/js/44.87154a9b.js"><link rel="prefetch" href="/frontend/assets/js/45.cfd97f4b.js"><link rel="prefetch" href="/frontend/assets/js/46.47869390.js"><link rel="prefetch" href="/frontend/assets/js/47.806eeabf.js"><link rel="prefetch" href="/frontend/assets/js/5.3c8cd087.js"><link rel="prefetch" href="/frontend/assets/js/6.f11af450.js"><link rel="prefetch" href="/frontend/assets/js/7.dbd79068.js"><link rel="prefetch" href="/frontend/assets/js/8.11c4b32a.js"><link rel="prefetch" href="/frontend/assets/js/9.6335d493.js">
+    <link rel="stylesheet" href="/frontend/assets/css/0.styles.5583c977.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/frontend/" class="home-link router-link-active"><!----> <span class="site-name">whisperwind</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/frontend/browser/" class="nav-link router-link-active">
+  浏览器
+</a></div><div class="nav-item"><a href="/frontend/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/frontend/javascript/基础语法.html" class="nav-link">
+  Javascript
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/react/" class="nav-link">
+  React
+</a></li></ul></div></div> <a href="https://gitee.com/whisperw1nd/frontend" target="_blank" rel="noopener noreferrer" class="repo-link">
+    gitee
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/frontend/browser/" class="nav-link router-link-active">
+  浏览器
+</a></div><div class="nav-item"><a href="/frontend/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/frontend/javascript/基础语法.html" class="nav-link">
+  Javascript
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/react/" class="nav-link">
+  React
+</a></li></ul></div></div> <a href="https://gitee.com/whisperw1nd/frontend" target="_blank" rel="noopener noreferrer" class="repo-link">
+    gitee
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/frontend/browser/base/进程和线程.html" class="sidebar-link">进程和线程</a></li><li><a href="/frontend/browser/base/导航流程.html" class="sidebar-link">导航流程</a></li><li><a href="/frontend/browser/base/渲染流程.html" class="sidebar-link">渲染流程</a></li><li><a href="/frontend/browser/base/DOM树构建.html" class="active sidebar-link">DOM树构建</a></li><li><a href="/frontend/browser/base/重排和重绘.html" class="sidebar-link">重排和重绘</a></li><li><a href="/frontend/browser/base/页面优化.html" class="sidebar-link">页面优化</a></li><li><a href="/frontend/browser/base/消息队列&amp;事件循环.html" class="sidebar-link">消息队列&amp;事件循环</a></li><li><a href="/frontend/browser/base/浏览器安全.html" class="sidebar-link">浏览器安全</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="dom树构建"><a href="#dom树构建" class="header-anchor">#</a> DOM树构建</h1> <p>渲染引擎内部的 <strong>HTML解析器</strong> 负责将 HTML 字节流转换成 DOM 结构，渲染进程和网络进程建立管道后，网络进程加载了多少数据，HTML 解析器便解析多少数据。(HTML 解析器开始工作时，会默认创建了一个根为 document 的空 DOM 结构)</p> <ol><li><p>通过分词器将字节流转换为 Token</p> <p>通过分词器先将字节流转换为一个个 Token，分为 Tag Token 和文本 Token。例如：</p> <p><img src="/frontend/assets/img/token.b16d2fbb.png" alt="token"></p></li> <li><p>将 Token 解析为 DOM 节点，并将 DOM 节点添加到 DOM 树中。</p> <p>HTML 解析器维护了一个 Token 栈结构，该 Token 栈主要用来计算节点之间的父子关系</p> <ul><li>如果压入到栈中的是 StartTag Token，HTML 解析器会为该 Token 创建一个 DOM 节点，然后将该节点加入到 DOM 树中，它的父节点就是栈中相邻的那个元素生成的节点。</li> <li>如果分词器解析出来是文本 Token，那么会生成一个文本节点，然后将该节点加入到 DOM 树中，文本 Token 是不需要压入到栈中，它的父节点就是当前栈顶 Token 所对应的 DOM 节点。</li> <li>如果分词器解析出来的是 EndTag 标签，比如是 EndTag div，HTML 解析器会查看 Token 栈顶的元素是否是 StarTag div，如果是，就将 StartTag div 从栈中弹出，表示该 div 元素解析完成。</li></ul></li></ol> <div class="custom-block tip"><p class="custom-block-title">注意</p> <p>解析过程遇到 script 标签，会暂停整个 DOM 的解析，执行 JavaScript 代码，不过这里执行 JavaScript 时，需要先下载这段 JavaScript 代码。(JavaScript 文件的下载过程会阻塞 DOM 解析)</p> <p>Chrome 通过<strong>预解析</strong>优化，当渲染引擎收到字节流之后，会开启一个预解析线程，用来分析 HTML 文件中包含的 JavaScript、CSS 等相关文件，解析到相关文件之后，预解析线程会提前下载这些文件。</p></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">8/31/2020, 10:17:41 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/frontend/browser/base/渲染流程.html" class="prev">
+        渲染流程
+      </a></span> <span class="next"><a href="/frontend/browser/base/重排和重绘.html">
+        重排和重绘
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/frontend/assets/js/app.9af0d489.js" defer></script><script src="/frontend/assets/js/2.92dfc871.js" defer></script><script src="/frontend/assets/js/12.99c97a8d.js" defer></script>
+  </body>
+</html>
