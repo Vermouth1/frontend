@@ -3,9 +3,9 @@ const plugins = require('./plugins');
 const nav = require('./nav');
 
 module.exports = {
-  base: '/frontend/',
+  base: '/',
   title: 'whisperwind',
-  dest: 'dist',
+  dest: 'docs',
   port: '8089',
   plugins,
   themeConfig: {
